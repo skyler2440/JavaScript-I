@@ -23,7 +23,7 @@ const intern1 = {
   "id": 1,
   "name": "Mitzi",
   "email": "mmelloy@psu.edu",
-  "gender": "F"
+  "gender": "F",
 }
 const intern2 = {
   "id": 2,
@@ -31,20 +31,20 @@ const intern2 = {
   "email": "kdiben1@tinypic.com",
   "gender": "M",
   speak: function () {
-    "Hello my name is "+ intern2.name
+    return "Hello my name is "+ intern2.name;
   }
 }
 const intern3 = {
   "id": 3,
   "name": "Kevin",
   "email": "kmummery2@wikimedia.org",
-  "gender": "M"
+  "gender": "M",
 }
 const intern4 = {
   "id": 4,
   "name": "Gannie",
   "email": "gmartinson3@illinois.edu",
-  "gender": "M"
+  "gender": "M",
 }
 const intern5 = {
   "id": 5,
